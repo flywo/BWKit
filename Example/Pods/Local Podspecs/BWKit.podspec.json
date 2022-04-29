@@ -1,0 +1,45 @@
+{
+  "name": "BWKit",
+  "version": "1.0.0",
+  "summary": "百微SDK。",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YuHua/BWKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YuHua": "316910279@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YuHua/BWKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BWKit/Classes/**/*",
+  "dependencies": {
+    "SQLite.swift": [
+      "0.12.2"
+    ],
+    "SwiftyBeaver": [
+      "1.9.2"
+    ],
+    "CocoaAsyncSocket": [
+      "7.6.4"
+    ],
+    "ObjectMapper": [
+      "4.2.0"
+    ],
+    "SwiftyJSON": [
+      "5.0.0"
+    ],
+    "Alamofire": [
+      "4.9.1"
+    ],
+    "CryptoSwift": [
+      "1.3.2"
+    ]
+  }
+}

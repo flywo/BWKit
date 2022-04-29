@@ -1,0 +1,6 @@
+framework module BWKit {
+  umbrella header "BWKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

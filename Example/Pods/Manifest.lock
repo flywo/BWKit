@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BWKit (1.0.0):
+    - Alamofire (= 4.9.1)
+    - CocoaAsyncSocket (= 7.6.4)
+    - CryptoSwift (= 1.3.2)
+    - ObjectMapper (= 4.2.0)
+    - SQLite.swift (= 0.12.2)
+    - SwiftyBeaver (= 1.9.2)
+    - SwiftyJSON (= 5.0.0)
+  - CocoaAsyncSocket (7.6.4)
+  - CryptoSwift (1.3.2)
+  - ObjectMapper (4.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftyBeaver (1.9.2)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - BWKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaAsyncSocket
+    - CryptoSwift
+    - ObjectMapper
+    - SQLite.swift
+    - SwiftyBeaver
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  BWKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BWKit: 366bd3a6030d7469babe5397dbc02a7dc4bd3655
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftyBeaver: b8239f6bfe9e1ea3303e6139abc8c24228081d84
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 6c42083cc55b26d28b756fe4640ec66608bbd596
+
+COCOAPODS: 1.11.2
